@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => ({
   },
 
   // IMPORTANT for GitHub Pages
-  base: "/website/",
+  base: "/",
 
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
 
